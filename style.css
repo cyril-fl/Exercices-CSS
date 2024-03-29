@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", Arial sans-serif;
+    background-color: #D74949;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.container {
+    background-color: #F3F3F3;
+    min-height: 205px;
+    height: 89.91vh;
+    max-height: 1110px;
+    min-width: 370px;
+    width: 77.08%;
+    max-width: 1110px;
+    margin: auto;
+}
+
+footer {
+    background-color : #3A3A3A;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    min-height: 23.33px;
+    height: 10.23%;
+    max-height: 70px;
+    min-width: 100%;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+footer p {
+    display: block;
+    color: #F3F3F3;
+}
