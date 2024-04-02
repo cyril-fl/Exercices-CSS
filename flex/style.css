@@ -1,0 +1,130 @@
+:root {
+    --color1: #292929;
+    --color2: #2D4480;
+    --color3: #FFBC0F;
+    --color4: #FFFFFF;
+    --color5: #000000;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: "Noto Sans symbols", Arial sans-serif;
+}
+.container {
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: var(--color2);
+}
+
+
+
+.card {
+    background-color: var(--color4);
+    border-radius: 27px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 156.33px;
+        height: 58.48%;
+            max-height: 469px;
+    min-width: 96px;
+        width: 20%;
+            max-width: 288px;
+    padding: 3.47%;
+    box-shadow: 5px 20px 50px 0px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    /*margin-bottom: 28px;!**28px*!*/
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    font-weight: 300;
+}
+
+ul {
+    text-align: center;
+    /*min-height: 61.67px;*/
+    height: 50.45%;
+    max-height: 185px ;
+    min-width: 56.67px;
+    width: 100%;
+    max-width: 188px;
+    margin-top: 28px;
+    background-color: #fbca62;
+}
+ul li img {
+    min-height: 6.67px;
+    height: 4.26%;
+    max-height: 20px;
+
+    aspect-ratio: 1/1;
+    margin-right: 6.94%;
+}
+
+ul li {
+    font-size: 1rem;
+    line-height: 2.05rem;
+    font-weight: 600;
+    letter-spacing: 6%;
+    margin-bottom: 1.07%;
+    width: 100%;
+
+}
+.price {
+    min-width: 64px;
+    /*background-color: yellow ;*/
+    width: 100%;
+    max-width: 188px;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    text-align: center;
+    overflow-wrap: normal;
+    font-weight: 700;
+    margin-bottom: 7.46%;
+}
+
+.price .forever {
+    font-family: "Allan", Arial sans-serif;
+    font-weight: 400;
+    text-align: right;
+    color: var(--color2)
+}
+
+hr {
+    min-width: 64px;
+    width: 100%;
+    max-width: 188px;
+    border: 1px solid black;
+    margin-top:  7.89%;
+}
+
+.button {
+    display: flex;
+    background-color: #FFBC0F;
+    border-radius: 34px;
+    min-height: 68px;
+        height: 68px;
+            max-height: 68px;
+    min-width: 181px;
+        width: 181px;
+            max-width: 181px;
+    font-size: 1rem;
+    line-height: 2.05rem;
+    font-weight: 600;
+    letter-spacing: 6%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 17.46%;
+}
