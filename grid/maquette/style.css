@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: "Noto Sans symbols", Arial sans-serif;
+    background-color: black;
+}
+.container {
+    min-height: 506.00px;
+    height: 100.00%;
+    max-height: 1518px;
+    min-width: 657.00px;
+    width: 100.00%;
+    max-width: 1971px;
+
+}
+section {
+    background-color: blue;
+    border: 1px solid whitesmoke;
+    height: 33%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: blue;
+    border: 1px solid whitesmoke;
+    min-height: 22.00px;
+    height: 4.35%;
+    max-height: 66.00px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: #fbca62;
+    min-height: 22.00px;
+    height: 100.00%;
+    max-height: 66px;
+    min-width: 400.00px;
+    width: 60.88%;
+    max-width: 1200px;
+}
+
+.top{
+    min-height: 22.00px;
+    height: 40.97%;
+    max-height: 622.00px;
+    width: 100%;
+}
+
+.bottom{
+    min-height: 276.67px;
+    height: 54.68%;
+    max-height: 830.00px;
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8F2727;
+    min-height: 22.00px;
+    height: 100.00%;
+    max-height: 830px;
+    min-width: 400.00px;
+    width: 60.88%;
+    max-width: 1200px;
+}
+
+.square1 {
+    background-color: #C59898;
+    border: 1px solid white;
+    min-height: 194.67px;
+    height: 93.89%;
+    max-height: 584px;
+    min-width: 188.00px;
+    width: 47.00%;
+    max-width: 564px;
+}
+
+.grid {
+    background-color: olive;
+    min-height: 188.67px;
+    height: 82.27%;
+    max-height: 566px;
+    min-width: 400.00px;
+    width: 100.00%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 1%;
+    gap: 10px;
+
+}
+
+.gridItem {
+    background-color: lightblue;
+    border: 1px solid white;
+    /*min-height: 188.67px;*/
+    height: 100%;
+    /*max-height: 566px;*/
+    /*min-width: 129.00px;*/
+    width: 100%;
+    /*max-width: 387px;*/
+
+
+
+}
+.item1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}

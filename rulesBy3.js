@@ -5,11 +5,11 @@ function calcFont(value, refValue) {
     return value/refValue
 }
 
-let heightValue =185
-let refHeight = 469
+let heightValue = 250
+let refHeight = 566
 
-let widthValue = 50
-let refWidth = 1440
+let widthValue = 387
+let refWidth = 1200
 
 
 
@@ -19,6 +19,15 @@ let width = ruleByTree(widthValue, refWidth)
 let widthTiers = widthValue/3
 let font = calcFont(32.8, 16)
 
-console.log(`height: ${height}% | heightTiers: ${heightTiers.toFixed(2)}px`)
-console.log(`width: ${width}%| widthTiers: ${widthTiers.toFixed(2)}px`)
+
+
+console.log(`min-height: ${heightTiers.toFixed(2)}px;\n`+
+            `height: ${height}%;\n`+
+            `max-height: ${heightValue}px;`)
+console.log(`min-width: ${widthTiers.toFixed(2)}px;\n`+
+            `width: ${width}%;\n`+
+            `max-width: ${widthValue}px;`)
+console.log('')
+console.log(`aspect-ratio: ${widthValue}/${heightValue}`)
+console.log('')
 console.log(`font ${font}rem`)
