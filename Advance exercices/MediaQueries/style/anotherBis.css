@@ -1,0 +1,84 @@
+/** Test **/
+.none {
+  display: none;
+}
+
+.test {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+/** Global **/
+/** Reset **/
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: green;
+}
+
+.main {
+  background-color: green;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  color: black;
+  font-size: 10vw;
+  letter-spacing: 0.05rem;
+  display: grid;
+}
+
+/** Individual Styles **/
+.a {
+  background-color: blue;
+}
+
+.b {
+  background-color: green;
+}
+
+.c {
+  background-color: yellow;
+}
+
+.d {
+  background-color: orange;
+}
+
+.e {
+  background-color: purple;
+}
+
+/** Media Queries **/
+@media screen and (max-width: 768px) {
+  .main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .main {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/*# sourceMappingURL=anotherBis.css.map */
