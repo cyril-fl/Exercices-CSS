@@ -1,0 +1,14 @@
+{
+  "name": "exercices-css",
+  "version": "1.0.0",
+  "description": "## Pixel perfect, baby! > [!NOTE] > Based on : [BeCode repository](https://github.com/Junior-dev-Track/13-CSS-basics/blob/master/04.CSS-pixel-perfect-1.md) and this [Figma](https://www.figma.com/file/0O0tU0ZVFisqXcPLAt4COv/Exercise?type=design&node-id=1-2&mode=design) model.",
+  "main": "../rulesBy3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.74.1"
+  }
+}
