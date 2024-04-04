@@ -5,11 +5,11 @@ function calcFont(value, refValue) {
     return value/refValue
 }
 
-let heightValue = 250
+let heightValue = 0
 let refHeight = 566
 
-let widthValue = 387
-let refWidth = 1200
+let widthValue = 22
+let refWidth = 1440
 
 
 
@@ -17,7 +17,7 @@ let height = ruleByTree(heightValue, refHeight)
 let heightTiers = heightValue/3
 let width = ruleByTree(widthValue, refWidth)
 let widthTiers = widthValue/3
-let font = calcFont(32.8, 16)
+let font = calcFont(23, 16)
 
 
 
