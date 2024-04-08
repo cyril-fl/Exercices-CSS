@@ -1,0 +1,30 @@
+//** Test **
+.none {
+  display: none;
+}
+.test {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black
+}
+
+//** Reset **
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+img {
+  object-fit: cover; /* pour que l'image couvre toute la zone */
+  object-position: center; /* pour centrer l'image */
+  width: 100%;
+}
